@@ -1,0 +1,8 @@
+/*
+ * GET home page.
+ */
+
+exports.index = function(req, res) {
+  console.log("hello, this is a thing");
+  res.render('index', { title: 'Express' })
+};
